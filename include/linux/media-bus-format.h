@@ -163,6 +163,12 @@
 /* S5C73M3 sensor specific interleaved UYVY and JPEG */
 #define MEDIA_BUS_FMT_S5C_UYVY_JPEG_1X8		0x5001
 
+/* Prophesee Event-based formats - next is	0x5304 */
+#define MEDIA_BUS_FMT_PSEE_EVT2			0x5300
+#define MEDIA_BUS_FMT_PSEE_EVT21ME		0x5301
+#define MEDIA_BUS_FMT_PSEE_EVT21		0x5303
+#define MEDIA_BUS_FMT_PSEE_EVT3			0x5302
+
 /* HSV - next is	0x6002 */
 #define MEDIA_BUS_FMT_AHSV8888_1X32		0x6001
 
